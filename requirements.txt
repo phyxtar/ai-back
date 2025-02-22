@@ -1,4 +1,4 @@
-﻿absl-py==2.1.0
+absl-py==2.1.0
 astunparse==1.6.3
 attrs==25.1.0
 blinker==1.9.0
@@ -51,10 +51,6 @@ scipy==1.15.2
 sentencepiece==0.2.0
 six==1.17.0
 sounddevice==0.5.1
-tensorboard==2.18.0
-tensorflow==2.10.0
-tensorflow-io-gcs-filesystem==0.31.0
-termcolor==2.5.0
 typing_extensions==4.12.2
 urllib3==2.3.0
 Werkzeug==3.1.3
