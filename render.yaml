@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: badminton-analysis-backend
+    runtime: python
+    pythonVersion: 3.10
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn -w 4 -b 0.0.0.0:$PORT process_video:app
